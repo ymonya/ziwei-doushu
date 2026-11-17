@@ -1,0 +1,24 @@
+# 签名私钥与凭证（绝不入库；公开会导致任何人可用同一证书发布同包名更新）
+*.jks
+*.keystore
+*.p12
+build_key.log
+
+# WorkBuddy 工作区内部数据与溯源备份（非项目内容）
+.workbuddy/
+_source/
+
+# Android 构建中间产物（由 build.sh 现场生成）
+apk-src/build/
+apk-src/out/
+apk-src/assets/
+
+# 日志与缓存
+*.log
+__pycache__/
+*.pyc
+
+# 操作系统杂项
+.DS_Store
+Thumbs.db
+desktop.ini
