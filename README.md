@@ -8,7 +8,7 @@
 | 形态 | 文件 | 用法 |
 |---|---|---|
 | 网页版（桌面 / 通用） | `index.html` | **双击即可离线使用**，无需安装、无需后端、无需联网 |
-| **Android APK（手机竖屏）** | `ziwei-doushu-v1.0.apk` | 装到手机即用，界面**专为竖屏重排**（见第三节） |
+| **Android APK（手机竖屏）** | [v1.0.0 Release 下载](https://github.com/ymonya/ziwei-doushu/releases/download/v1.0.0/ziwei-doushu-v1.0.apk) | 装到手机即用，界面**专为竖屏重排**（见第三节）；安装包因体积较大放在 Release |
 | 竖屏版网页副本 | `mobile.html` | APK 内页面的独立副本，浏览器把窗口拉窄即可预览 |
 | 构建工程 | `apk-src/` | 可复现打包，改 UI 后可重新签名出包 |
 
@@ -87,7 +87,7 @@
 | 文件 | 说明 |
 |---|---|
 | `index.html` | **网页版主成品**：单文件（约 4.6 MB），内联引擎 + zstd 解码 + 1990 全年真实断语 + 12 张精选盘 |
-| `ziwei-doushu-v1.0.apk` | **Android 安装包**（约 34.1 MB），手机竖屏专属布局，assets 内置全部离线数据 |
+| `ziwei-doushu-v1.0.apk`（[Release 下载](https://github.com/ymonya/ziwei-doushu/releases/download/v1.0.0/ziwei-doushu-v1.0.apk)） | **Android 安装包**（约 34.1 MB），手机竖屏专属布局，assets 内置全部离线数据；因 GitHub 仓库写入的请求体限制，安装包放在 Release，不在仓库目录 |
 | `mobile.html` | APK 内竖屏页面的独立副本，浏览器窄窗口可直接预览竖屏效果 |
 | `apk-src/` | 可移植构建工程（`MainActivity.java` / 资源 / 脚本；签名密钥需自备），见第三节第 6 点 |
 | `preview-*.png` | 4 张竖屏效果截图（起盘表单、命盘、断语、APK 同源加载） |
